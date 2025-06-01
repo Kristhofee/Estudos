@@ -11,4 +11,4 @@ const person = {
     age: 27
 }
 
-module.exports = person
+module.exports = { person, sum, multi }
