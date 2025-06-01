@@ -8,7 +8,7 @@ function calculateDiscount(price, discount) {
     return result;
 }
 
-const calculateDiscount = (price, discount) => (price * discount) / 100;
+const calculateDiscount1 = (price, discount) => (price * discount) / 100;
 
 cart.forEach((value) => {
     finalvalue += value;
@@ -29,4 +29,6 @@ cart.forEach((value) => {
 console.log(`O valor final da compra foi de R$ ${finalvalue.toFixed(2)}, mas com os descontos de ${totaldiscount.toFixed(1)}  
 ficou R$ ${finalvaluewithdiscount.toFixed(1)}`)
 
+const person = require('./module')
 
+console.log(person)
